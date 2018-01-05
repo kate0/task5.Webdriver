@@ -23,6 +23,9 @@ browser.findElement(webdriver.By.id("mail")).sendKeys("temporary");
 browser.findElement(webdriver.By.id("postbut")).click();
 browser.findElement(webdriver.By.id("click-to-refresh")).click();
 browser.findElement(webdriver.By.partialLinkText("Confirmation")).click();
-	then(function(links){
-		console.log('Found', links.length, 'Wiki links.' )
+browser.wait(function () {
+    return browser.elementLocated(webdriver.By.className("header")), 10000);
+browser.findElement(webdriver.By.linkText("Personal information")).
+    then(function(){
+		console.log('Account is registered. Test passed.' )
 browser.quit();

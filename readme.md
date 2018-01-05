@@ -9,7 +9,7 @@
 # Step 1. Open application
 # Step 2. Find Registration element
 # Step 3. Click on Registration
-# Step 4. Fill all fields 
+# Step 4. Fill all fields
 # Step 5. Find Register button
 # Step 6. Click Register button
 # Step 7. Switch to another tab
@@ -18,4 +18,4 @@
 # Step 10. Find confirmation letter
 # Step 11. Open confirmation letter
 # Step 12. Click the link
-# Step 13. Check confirmation message is shown
+# Step 13. Check Personal Account is opened
